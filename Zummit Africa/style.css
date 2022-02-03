@@ -1,0 +1,364 @@
+* {
+    font-family: "roboto", sans-serif;
+    background-color: #212121;
+}
+/*Page 1*/
+/*Navigation*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    gap: 5rem;
+}
+/*Header Section*/
+.hero-header {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 84px;
+    position: absolute;
+    width: 536px;
+    height: 84px;
+    left: 452px;
+    top: 243px;
+    text-align: center;
+}
+.hero-text {
+    position: absolute;
+    width: 526px;
+    height: 70px;
+    left: 462px;
+    top: 357px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+.hero-button {
+    position:absolute;
+    width: 240px;
+    height: 70px;
+    left: 595px;
+    top: 487px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.hero-button:hover {
+background-color: yellow;
+color: black;
+}
+/*Logo*/
+.d-flex {
+    display: flex;
+}
+.circle1 {
+position: absolute;
+width: 105px;
+height: 105px;
+left: 127px;
+top: 154px;
+opacity: 0.5;
+}
+.circle2 {
+position:absolute;
+width: 170px;
+height: 189px;
+left: -43px;
+top: 520px;
+opacity: 0.5;
+}
+.circle3 {
+position: absolute;
+width: 180px;
+height: 180px;
+left: 739px;
+top: 580px;
+opacity: 0.5;
+}
+.circle4 {
+position: absolute;
+width: 85px;
+height: 85px;
+left: 791px;
+top: 307px;
+opacity: 0.5;
+}
+.circle5 {
+position: absolute;
+width: 105px;
+height: 105px;
+left: 1035px;
+top: 406px;
+opacity: 0.5;
+}
+.circle6 {
+position: absolute;
+width: 273px;
+height: 273px;
+left: 1090px;
+top: -69px;
+opacity: 0.5;
+}
+
+/*Page 2*/
+.role-header {
+    position: absolute;
+    width: 726px;
+    height: 56px;
+    left: 357px;
+    top: 92px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    line-height: 56px;
+}
+.role-description {
+    position: absolute;
+    height: 28px;
+    left: 150px;
+    top: 208px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+}
+.role-text {
+ position: absolute;
+width: 1091px;
+height: 150px;
+left: 180px;
+top: 266px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 167% */
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+.role-text2 {
+ position: absolute;
+width: 1091px;
+height: 150px;
+left: 180px;
+top: 350px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 167% */
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+.role-way {
+position: absolute;
+width: 1091px;
+height: 30px;
+left: 180px;
+top: 431px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 167% */
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.role-description2 {
+position: absolute;
+width: 346px;
+height: 28px;
+left: 150px;
+top: 510px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+text-transform: uppercase;
+color: white;
+}
+.Bullet1{
+position: absolute;
+width: 1091px;
+height: 390px;
+left: 180px;
+top: 568px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 167% */
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+.CTO {
+position: absolute;
+width: 1091px;
+height: 90px;
+left: 185px;
+top: 870px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 167% */
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+.Apply-button {
+position: absolute;
+width: 240px;
+height: 70px;
+left: 606px;
+top: 1138px;
+border-radius: 50px;
+cursor: pointer;
+}
+.Apply-button:hover {
+background-color: yellow;
+color: black;
+}
+/*Page 3*/
+.apply {
+position: absolute;
+width: 983px;
+height: 56px;
+left: 229px;
+top: 92px;
+font-style: normal;
+font-weight:600;
+font-size: 36px;
+line-height: 56px;
+text-align: center;
+text-justify: auto;
+color: #FFFFFF;
+}
+.firstname {
+position: absolute;
+width: 115px;
+height: 23px;
+left: 240px;
+top: 296px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+text-transform: uppercase;
+color: white;
+}
+.lastname {
+    position: absolute;
+    width: 115px;
+    height: 23px;
+    left: 490px;
+    top: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.input {
+position: absolute;
+width: 400px;
+height: 40px;
+left: 220px;
+top: 281px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.input2 {
+position: absolute;
+width: 400px;
+height: 40px;
+left: 730px;
+top: 281px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;   
+}
+.input3 {
+position: absolute;
+width: 400px;
+height: 54px;
+left: 220px;
+top: 385px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.input4 {
+position: absolute;
+width: 400px;
+height: 54px;
+left: 730px;
+top: 385px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.input5 {
+position: absolute;
+width: 1000px;
+height: 234px;
+left: 220px;
+top: 489px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.upload {
+position: absolute;
+width: 249px;
+height: 23px;
+left: 220px;
+top: 773px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+.upload.btn {
+position: absolute;
+width: 200px;
+height: 60px;
+left: 220px;
+top: 816px;
+}
+.submit {
+position: absolute;
+width: 196px;
+height: 70px;
+left: 622px;
+top: 984px;
+cursor: pointer;
+border-radius:50px;
+}
+.submit:hover {
+background-color: yellow;
+color: black;  
+}
+/*Page 4*/
+.end {
+position: absolute;
+width: 793px;
+height: 84px;
+left: 324px;
+top: 243px;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 84px;
+color: #FFFFFF;
+}
